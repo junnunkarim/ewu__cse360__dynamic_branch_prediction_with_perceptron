@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -O2
-TARGETS = branch_predictor
+TARGETS = branch_predictor *.log
 
 all: $(TARGETS)
 
